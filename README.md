@@ -580,38 +580,7 @@ If your terminal still has problems, use a normal ASCII header instead of specia
 
 ---
 
-## File Structure
 
-Recommended GitHub repository structure:
-
-```text
-cliploop/
-│
-├── cliploop.py
-├── README.md
-├── LICENSE
-└── requirements.txt
-```
-
----
-
-## requirements.txt
-
-Create a file named:
-
-```text
-requirements.txt
-```
-
-Add this:
-
-```text
-pyautogui
-pyperclip
-keyboard
-```
-
-Then users can install dependencies with:
 
 ```bash
 pip install -r requirements.txt
