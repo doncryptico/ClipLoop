@@ -18,6 +18,14 @@ ClipLoop must only be used on:
 * Your own form/input field
 * A controlled testing environment where you have permission
 
+In Kali Linux if you install issue to install requirements then:
+sudo apt update
+sudo apt install python3-venv python3-pip python3-tk xclip xsel scrot -y
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python cliploop.py
+
 Do **not** use this tool for spam, harassment, flooding chats, bypassing platform limits, or sending unwanted messages to other people or services.
 
 The developer is not responsible for misuse of this tool.
